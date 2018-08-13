@@ -1,0 +1,22 @@
+{
+  "name": "pelancong",
+  "version": "1.0.0",
+  "description": "bagian servr yang akan terhubung dengan mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
+  },
+  "author": "anggit",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jwt-simple": "^0.5.1",
+    "mongoose": "^5.0.14",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
